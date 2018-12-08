@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="com.example.testNG.TestNGSample1"/>
+      <methods>
+      <include name="thirdMethod"/>
+      <include name="firstMethod"/>
+      <include name="secondMethod"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test1">
+    <classes>
+      <class name="com.example.testNG.TestNGSample2"/>
+      
+
+    </classes>
+  </test>
+</suite> <!-- Suite -->

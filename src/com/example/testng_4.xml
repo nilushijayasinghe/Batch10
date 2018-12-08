@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="com.example.testNG.TestNGSample4"/>
+      <parameter name="browser" value="Chrome"/>
+      <parameter name="testParam" value="Nilushi"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
